@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wilkinOS</title>
+</head>
+<body style="font-family: Noto Sans, system-ui, sans-serif; height: 100vh; background-repeat: no-repeat; background-image: url(./wallpaper.jpeg); background-size: cover;">
+    <div
+    style="position: absolute; width: 100%; display: flex; backdrop-filter: blur(10px); background-color: rgba(0, 0, 0, 0.125); color: #fff; justify-content: space-between; gap: 32px;">
+        <p style="margin-left: 16px; font-weight: 700; background-color: rgba(256, 256, 256, 0.125); padding: 4px 12px; border-radius: 16px;" id="welcomeopen">
+            wilkinOS
+        </p>
+        <p id="time" style="margin-right: 16px; background-color: rgba(256, 256, 256, 0.125); padding: 4px 12px; border-radius: 16px;">
+            whoops. time not loady
+        </p>
+    </div>    
+    <div id="welcome"
+    style="border: solid; display: flex; flex-direction: column; border-radius: 10px; position: absolute; top: calc(50% - 90px); left: calc(50% - 180px); backdrop-filter: blur(4px); background-color: rgba(0, 0, 0, 0.125); ">
+    <div id="welcomeheader"
+      style="width: 100%; display: flex; align-items: center; cursor: move; justify-content: space-between; margin-top: 8px;">
+      <div id="welcomeclose" style="width: 16px; height: 16px; cursor: pointer; background-color: #EC6B5E; border-radius: 16px; border: solid 1px rgba(0, 0, 0, 0.25); margin-left: 6px;"></div>
+      <p style="margin: 0px; color: #fff; font-weight: 500">Welcome</p>
+      <div style="width: 16px; margin-right: 6x; height: 16px;"></div>
+    </div>
+    <div style="background-color: #fff; margin: 6px; border-radius: 10px; width: 360px; padding: 16px;">
+      <img src="leo.jpeg"
+        style="width: 64px; height: 64px; border-radius: 32px; object-fit: cover;" />
+      <h1 style="margin: 0px;">wilkinOS</h1>
+      <p style="margin: 0px;">
+        wilkinOS is a feature-limited web based os
+      </p>
+    </div>
+  </div>    <script src="script.js"></script>
+</body>
+</html>
